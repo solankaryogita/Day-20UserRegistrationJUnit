@@ -33,4 +33,5 @@ public class TestCase {
 	public void testPassword() {
 		assertTrue(registration.password("Max12@78"));
 	}
+	
 }
