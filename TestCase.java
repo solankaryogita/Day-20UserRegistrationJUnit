@@ -29,4 +29,9 @@ public class TestCase {
 		assertTrue(registration.mobileNumber("91 9960322320"));
 	}
 	
+	@Test
+	public void testPassword() {
+		assertTrue(registration.password("Max12@78"));
+	}
+	
 }
