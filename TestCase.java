@@ -20,4 +20,9 @@ public class TestCase {
 		assertTrue(registration.lastName("Patit"));
 	}
 	
+	@Test
+	public void testEmailID() {
+		assertTrue(registration.emailId("abc-xyz@gmail.com.in"));
+	}
+	
 }

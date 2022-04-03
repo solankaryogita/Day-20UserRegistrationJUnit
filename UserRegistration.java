@@ -20,5 +20,14 @@ public class UserRegistration {
 		return false;
 	}
 	
+	public static boolean emailId(String emailId) {
+		String pattern="^[a-zA-Z0-9_-]+(?:\\.[a-zA-Z0-9_+-]+)*@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$";
+		if(emailId.matches(pattern)) {
+			return true;
+		}
+		return false;
+	}
+	
+	
 	
 }
