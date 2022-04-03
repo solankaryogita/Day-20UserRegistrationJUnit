@@ -10,7 +10,6 @@ public class TestCase {
 
 	@Test
 	public void testFirstName() {
-		
 		assertTrue(registration.firstName("Max"));
 		
 	}
@@ -23,6 +22,11 @@ public class TestCase {
 	@Test
 	public void testEmailID() {
 		assertTrue(registration.emailId("abc-xyz@gmail.com.in"));
+	}
+	
+	@Test
+	public void testMobileNumber() {
+		assertTrue(registration.mobileNumber("91 9960322320"));
 	}
 	
 }

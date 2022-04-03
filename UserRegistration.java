@@ -28,6 +28,12 @@ public class UserRegistration {
 		return false;
 	}
 	
-	
+	public static boolean mobileNumber(String mobileNumber) {
+		String mobileNo = "^(91)\\s{1}[7-9]{1}[0-9]{9}$";
+		if (mobileNumber.matches(mobileNo)) {
+			return true;
+		}
+		return false;
+	}
 	
 }
